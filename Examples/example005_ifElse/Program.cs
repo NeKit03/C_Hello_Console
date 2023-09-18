@@ -1,9 +1,6 @@
 ﻿string Name = Console.ReadLine();
-if (Name=="Nikita"){
-    Console.Write("Hello ");
-    Console.WriteLine(Name);    
+if (Name.ToLower()=="nikita"){ 
+    Console.WriteLine($"{"Hello "}{Name}");  
 }else{
-    Console.Write("______");
-    Console.Write(Name);
-    Console.WriteLine("_____");
+    Console.WriteLine($"{"_____"}{Name}{"_____"}");
 }
