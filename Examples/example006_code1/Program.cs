@@ -1,0 +1,12 @@
+﻿int numA=new Random().Next(0,100);
+int numB=new Random().Next(0,100);
+int numC=new Random().Next(0,100);
+int numD=new Random().Next(0,100);
+int numE=new Random().Next(0,100);
+Console.WriteLine($"{numA} {numB} {numC} {numD} {numE}");
+int mx=numA;
+if(mx<numB)  mx=numB;
+if(mx<numC)  mx=numC;
+if(mx<numD)  mx=numD;
+if(mx<numE)  mx=numE;
+Console.WriteLine($"{"max namber is"} {mx}");
