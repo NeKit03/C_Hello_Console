@@ -8,6 +8,6 @@ int power(int numA,int numB){
 }
 
 string[] a=Console.ReadLine().Split(new char[] {' ',','}, StringSplitOptions.RemoveEmptyEntries);
-Console.WriteLine(power(Convert.ToInt32(a[0]),Convert.ToInt32(a[1])));
+Console.WriteLine("{0},{1} -> {2}",a[0],a[1],power(Convert.ToInt32(a[0]),Convert.ToInt32(a[1])));
 
 
